@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Widget Webex - Jenifer Aguilera</title>
+</head>
+<body>
+    <h1>Mi Chat de Webex</h1>
+    
+    <!-- Widget de Webex -->
+    <div id="webex-widget" style="width: 600px; height: 500px; border: 1px solid #ccc; margin: 20px auto;"></div>
+    <script src="https://code.s4d.io/widget-space/production/bundle.js"></script>
+    <script>
+      var widgetEl = document.getElementById('webex-widget');
+      webex.widget(widgetEl).spaceWidget({
+        accessToken: 'M2YzZmRmMGUtOGY0OC00YWVhLWJlOTktMmE3NzBhNDQ0MmJmMWNkN2E3YzItMmU4_P0A1_9e578c3c-0343-47bf-a37a-7ab2400d8e8b',
+        destinationId: 'Y2lzY29zcGFyazovL3VybjpURUFNOnVzLXdlc3QtMl9yL01FU1NBR0UvNjYyZWI1YTAtZTA4Ny0xMWYxLWIwODgtOWRjOGQ1ZDU2ODU4',
+        destinationType: 'spaceId'
+      });
+    </script>
+
+</body>
+</html>
